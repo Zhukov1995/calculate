@@ -1,0 +1,46 @@
+.button {
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    background: white; 
+    &:hover {
+        border: 1px solid #5D5FEF;
+    }
+    &:active {
+        background-color: #5D5FEF;
+        color: white;
+    }
+}
+
+.operator {
+    width: 52px;
+    height: 48px;
+    border: 1px solid #E2E3E5;
+}  
+
+.number {
+    width: 72px;
+    height: 48px;
+    border: 1px solid #E2E3E5;
+}
+
+.zero {
+    width: 152px;
+    height: 48px;
+    border: 1px solid #E2E3E5;
+}
+
+.equals {
+    width: 232px;
+    height: 64px;
+    background: #5D5FEF;
+    border: none;
+    color: white;
+    &:active {
+        background: #6164ff;
+    }
+}
